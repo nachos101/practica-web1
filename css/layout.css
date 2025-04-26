@@ -1,0 +1,45 @@
+.contenedor{
+    display: flex;
+}
+
+
+.izquierda{
+    background-color: rgb(109, 109, 40);
+    margin: 5px;
+}
+
+.derecha{
+    background-color: rgb(183, 185, 53);
+    margin: 10px;
+}
+
+.block{
+    display: block;
+}
+
+.publicidad {
+    background-color: rgb(199, 23, 23);
+    width: 800px;
+    height: 350px;
+    margin: 50px;
+    padding: 20px;
+    padding-top: 120px;
+}
+
+/*.estiloPublicidad{
+    display: flex;
+}*/
+
+.listaStyle{
+    list-style: none;
+    margin: 15px;
+    background-color: rgba(11, 218, 38, 0.616);
+    padding: 10px; 
+    text-align: center;
+}
+
+
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
