@@ -12,3 +12,11 @@
     color:rgb(119, 20, 61);
     background-color: rgb(255, 226, 62);
 }
+
+form{
+    display: grid;
+    /*justify-content: space-between;*/
+    background-color: rgb(143, 167, 163);
+    margin-right: 70%;
+    border: 2px solid black;
+}
