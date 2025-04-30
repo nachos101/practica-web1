@@ -2,7 +2,6 @@
     display: flex;
 }
 
-
 .izquierda{
     background-color: rgb(109, 109, 40);
     margin: 5px;
@@ -38,6 +37,12 @@
     text-align: center;
 }
 
+form {
+    background-color: rgb(178, 197, 197);
+    border: 1px solid black;
+    display: grid;
+    padding-right: 2%;
+}
 
 table, td, tr{
     border: 1px solid black;
