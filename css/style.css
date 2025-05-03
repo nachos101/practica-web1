@@ -8,7 +8,7 @@
 }
 
 .encabezado {
-    display: flex;
+    display: flexbox;
     justify-content: center;
 }
 

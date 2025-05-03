@@ -17,28 +17,23 @@ let var1 = document.getElementById("1").innerHTML = text1;
 let var2 = document.getElementById("2").innerHTML = text2;
 let var3 = document.getElementById("3").innerHTML = text3;
 
- function boton1(){
-    let button1 = "El ultimo fue el 1"
-    let var4 = document.getElementById("pp").innerHTML = button1;
-}
-function boton2(){
-    let button1 = "El ultimo fue el 2"
-    let var4 = document.getElementById("pp").innerHTML = button1;
-}
-
-function boton3(){
-    let button1 = "El ultimo fue el 3"
-    let var4 = document.getElementById("pp").innerHTML = button1;
+let btt1 = "1";
+let btt2 = "2";
+let btt3 = "3";
+function boton1(botoncito){
+    let button1 = "El ultimo fue el " + botoncito;
+    let skibidi = document.getElementById("pp").innerHTML = button1;
 }
 
 let bt1 = document.getElementById("b1");
-bt1.addEventListener("click",boton1);
+bt1.addEventListener("click",() => boton1(btt1));
 
 let bt2 = document.getElementById("b2");
-bt2.addEventListener("click",boton2);
+bt2.addEventListener("click",() => boton1(btt2));
 
 let bt3 = document.getElementById("b3");
-bt3.addEventListener("click",boton3);
+bt3.addEventListener("click",() => boton1(btt3));
+
 
 function hola(){
     let ee = document.getElementById("8").value;
