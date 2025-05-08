@@ -20,3 +20,13 @@ form{
     margin-right: 70%;
     border: 2px solid black;
 }
+
+.colorNormal{
+    background-color: yellow;
+    border: 3px solid green;
+}
+
+.changeColor{
+    background-color: blue;
+    border: 3px solid red;
+}

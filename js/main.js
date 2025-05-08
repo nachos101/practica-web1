@@ -46,3 +46,9 @@ function hola(){
 let boton = document.getElementById("88");
 boton.addEventListener("click",hola);
 
+function modifyDivv(){
+    document.querySelector("#div1").classList.toggle("changeColor");
+}
+
+let bttt = document.getElementById("but1");
+bttt.addEventListener("click",modifyDivv);
