@@ -33,8 +33,7 @@ bt2.addEventListener("click",() => boton1(btt2));
 
 let bt3 = document.getElementById("b3");
 bt3.addEventListener("click",() => boton1(btt3));
-
-
+//////////////////////////////
 function hola(){
     let ee = document.getElementById("8").value;
     let e2 = document.getElementById("9").value;
@@ -45,10 +44,56 @@ function hola(){
 
 let boton = document.getElementById("88");
 boton.addEventListener("click",hola);
-
+///////////
 function modifyDivv(){
     document.querySelector("#div1").classList.toggle("changeColor");
 }
 
 let bttt = document.getElementById("but1");
 bttt.addEventListener("click",modifyDivv);
+//////////////////////////////
+function resuelve(){
+    let X = document.querySelector("#S1").value;
+    let Y = Number(document.querySelector("#N1").value);
+    let Z = Number(document.querySelector("#N2").value);
+    if (X == "Suma"){
+        document.querySelector("#p5").innerHTML = (Y + Z);
+    }
+    else {
+        if (X == "Resta"){
+            document.querySelector("#p5").innerHTML = (Y - Z);
+        }
+        else {
+            if (X == "Multiplicacion"){
+                document.querySelector("#p5").innerHTML = (Y * Z);
+            }
+            else {
+                if (X == "Division"){
+                    document.querySelector("#p5").innerHTML = (Y / Z);
+                }
+            }
+        }
+    }
+}
+
+let suum = document.querySelector("#sumbt");
+suum.addEventListener("click",resuelve);
+////////////////////////////////////////////
+function ruleta(){
+    let X = Math.floor((Math.random()*36) + 1);
+    return X;
+}
+
+function comparaValores(){
+    let A = Number(document.querySelector("#valorA").value);
+    let B = ruleta();
+    if (A == B){
+        document.querySelector("#p6").innerHTML = "Gano";
+    }
+    else {
+        document.querySelector("#p6").innerHTML = "Perdio";
+    }
+}
+
+let RLTA = document.querySelector("#RLT");
+RLTA.addEventListener("click",comparaValores);
