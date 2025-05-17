@@ -10,11 +10,13 @@
 .izquierda{
     background-color: rgb(109, 109, 40);
     margin: 5px;
+    border-radius: 5px;
 }
 
 .derecha{
     background-color: rgb(183, 185, 53);
     margin: 10px;
+    border-radius: 5px;
 }
 
 .block{
@@ -28,6 +30,7 @@
     margin: 50px;
     padding: 20px;
     padding-top: 120px;
+    border-radius: 5px;
 }
 
 img {
