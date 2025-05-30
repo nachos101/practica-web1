@@ -13,6 +13,14 @@
     background-color: rgb(255, 226, 62);
 }
 
+.borde {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 form{
     display: grid;
     /*justify-content: space-between;*/
